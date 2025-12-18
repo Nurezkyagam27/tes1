@@ -30,7 +30,7 @@ st.write("Upload gambar daun untuk mengetahui **nama tanaman dan khasiatnya**")
 # ==============================
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("mobilenetv2_daun_herbal_final.h5")
+    return tf.keras.models.load_model("mobilenetv2_daun_herbal_lontar.h5")
 
 model = load_model()
 
